@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: sans-serif;
+}
+.main{
+    border: 3px solid pink;
+    height: 300px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.712);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;  
+    margin-left: 400px;
+    box-shadow: 0 0 30px rgba(255, 192, 203, 0.811);
+    
+}
+#hour{
+    
+margin-right: 10px;
+   height: 100px ;
+   width: 100px;
+   /* border: 1px solid black; */
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   /* background-color: white; */
+   color:rgb(0, 162, 255);
+   background-color: dimgrey;
+   font-size: 30px;
+   font-weight: bold;
+}
+#min{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px ;
+    width: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    background-color:cadetblue;
+    color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+ #sec{
+margin-left: 10px;
+
+    height: 100px ;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-color:darkslategrey;
+    color:green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .main{
+
+    display:  flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+ #dated{
+    color: white;
+    border-bottom: 5px solid green;
+    height: 10vh;
+    width: 60vh;
+    justify-content: center;
+    text-align: center;
+    padding-top:18px ;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 500px;
+    text-shadow: 0 0 5px;
+ }
+ span{
+    height: 30px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.712);
+      font-size: 20px;
+    color: blueviolet;
+    /* gap: 15px; */
+    font-weight: bold;
+ }
